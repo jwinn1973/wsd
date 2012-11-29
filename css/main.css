@@ -1,39 +1,79 @@
 
 
 
-body{
-	color: 
+body {
 	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
-	width: 900px
+	width: 900px;
 	padding: 0;
 	background-image: url(../images/l4d2_bg.jpg);
 	background-color: black;
-	background-repeat: none;
 	background-position: top center;
 	background-attachment: scroll;
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+
+header {
+	width: 900px;
+	margin: -10px 0px 0px 155px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+nav {
+	margin-top: -20px
+} 
+
+#intro{
+
+	width: 900px;
+	margin: -20px 0px 0px 155px;
+	padding: 0px;
+	background-color: white;
 	
-	
-	}
-h2, h3,h4 {
+}
+
+#introh2{
+	font-size: 18px;
+	text-decoration: none;
+	background: #8c6a03;
+	display: block;
+	height: 30px;
+	text-align: left;  
+	color: white;
+	padding: 10px 0px 0px 5px;
+	width: 895px;
+	overflow: hidden;
+}
+
+.introp{
+	width: 900px;
+	list-style-type: none;
+	padding: 0px 0px 0px 5px;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+
+*h4 {
+	font-size: 14px;
 text-decoration: none;
 	background: #000;
 	display: block;
 	height: 30px;
 	line-height: 30px;
-	text-align: left;  
+	text-align: center;  
 	color: white;
-	padding-top: 0px;
-	padding-left: 3px;
-	padding-right: 0px;
-	padding-bottom: 0px;
+	padding: 0px 0px 0px 1px;
 	margin-left: 155px;
-	}	
+	width: 900px;
+}
 	
-p {
+/*p {
 	width: 900px;
 	margin-left: 155px; 
 	list-style-type: none;
@@ -43,8 +83,10 @@ p {
 	padding-bottom: 0px;
 	overflow: hidden;
 	background-color: silver;
-	font-size: 100%;
-	}
+	font-size: 100%;*/
+}
+
+
 	
 #container {
 	width: 900px;
@@ -52,19 +94,19 @@ p {
 	margin-left: 155px; 
 	padding: 0;
 	
-	}
+}
 
 
 ul {
 	width: 900px;
 	margin-left: 155px;
-	background: #666;
+	background: #262001;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
-	}
+}
 	
-li{
+li {
 	width: 180px;
 	background: silver;
 	float: left;
@@ -72,37 +114,19 @@ li{
 
 a {
 	text-decoration: none;
-	background: #000;
+	background: #262001;
 	display: block;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;  
-	color: #d0000d;
+	color: #8c6a03;
 	
 }
 
 a:hover {
-	color: #fff;
-	background: #d0000d;
-	
-	}
-	
-header {
-	width: 900px;
-	margin-left: 155px;
-	margin-right: 400px;
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-	background-color: black;
-	font-size: 10px;
+	color: #262001;
+	background: #8c6a03;
 	
 }
-
-#intro {
-	width: 900px;
-	
-	
 	
 
-}
