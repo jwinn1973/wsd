@@ -5,8 +5,6 @@ body {
 	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
-	width: 900px;
-	padding: 0;
 	background-image: url(../images/l4d2_bg.jpg);
 	background-color: black;
 	background-position: top center;
@@ -15,24 +13,45 @@ body {
 	background-repeat: no-repeat;
 }
 
+nav {
+	margin: -14px 0 0 0;
+} 
+
+.wrapper{
+	width: 900px;
+	margin: -20px 0 0 155px;
+	padding: 0px;
+	background-color: white;
+}
+
+article{
+	background-color: red;
+
+}
+	
+h4,p {
+	color: #594302;
+	list-style-type: none;
+	padding: 10px 0 0 10px;
+	font-size: 14px;
+	
+}
+
 header {
 	width: 900px;
-	margin: -10px 0px 0px 155px;
+	margin: -15px 0 0 155px;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
 
 }
 
-nav {
-	margin-top: -20px
-} 
 
-#intro{
+
+#content{
 
 	width: 900px;
-	margin: -20px 0px 0px 155px;
-	padding: 0px;
+	margin: -20px 0 0 155px;
 	background-color: white;
 	
 }
@@ -43,7 +62,7 @@ nav {
 	background: #8c6a03;
 	display: block;
 	height: 30px;
-	text-align: left;  
+	text-align: center;  
 	color: white;
 	padding: 10px 0px 0px 5px;
 	width: 895px;
@@ -53,49 +72,40 @@ nav {
 .introp{
 	width: 900px;
 	list-style-type: none;
-	padding: 0px 0px 0px 5px;
+	padding: 0px 0px 10px 5px;
 	overflow: hidden;
 	font-size: 14px;
 }
 
+hclear{
+	clear: left;
 
-*h4 {
+}
+
+#contenth3{
 	font-size: 14px;
-text-decoration: none;
-	background: #000;
+	text-decoration: none;
+	background: #8c6a03;
 	display: block;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;  
+	height: 20px;
+	text-align: left;  
 	color: white;
-	padding: 0px 0px 0px 1px;
-	margin-left: 155px;
-	width: 900px;
-}
-	
-/*p {
-	width: 900px;
-	margin-left: 155px; 
-	list-style-type: none;
-	padding-top: 0px;
-	padding-left: 3px;
-	padding-right: 0px;
-	padding-bottom: 0px;
+	padding: 0px 0px 0px 5px;
+	width: 895px;
 	overflow: hidden;
-	background-color: silver;
-	font-size: 100%;*/
 }
 
+.contentimg {
+	float: left;
+	border: 0;
+	width: 150px;
+	height: 200px;
+}	
 
-	
-#container {
-	width: 900px;
-	background-color: #FFF;
-	margin-left: 155px; 
-	padding: 0;
+.par {
+	float: right;
 	
 }
-
 
 ul {
 	width: 900px;
