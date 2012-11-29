@@ -1,0 +1,108 @@
+
+
+
+body{
+	color: 
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	width: 900px
+	padding: 0;
+	background-image: url(../images/l4d2_bg.jpg);
+	background-color: black;
+	background-repeat: none;
+	background-position: top center;
+	background-attachment: scroll;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+	
+	}
+h2, h3,h4 {
+text-decoration: none;
+	background: #000;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;  
+	color: white;
+	padding-top: 0px;
+	padding-left: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-left: 155px;
+	}	
+	
+p {
+	width: 900px;
+	margin-left: 155px; 
+	list-style-type: none;
+	padding-top: 0px;
+	padding-left: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	overflow: hidden;
+	background-color: silver;
+	font-size: 100%;
+	}
+	
+#container {
+	width: 900px;
+	background-color: #FFF;
+	margin-left: 155px; 
+	padding: 0;
+	
+	}
+
+
+ul {
+	width: 900px;
+	margin-left: 155px;
+	background: #666;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	}
+	
+li{
+	width: 180px;
+	background: silver;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	background: #000;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;  
+	color: #d0000d;
+	
+}
+
+a:hover {
+	color: #fff;
+	background: #d0000d;
+	
+	}
+	
+header {
+	width: 900px;
+	margin-left: 155px;
+	margin-right: 400px;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	font-size: 10px;
+	
+}
+
+#intro {
+	width: 900px;
+	
+	
+	
+
+}
