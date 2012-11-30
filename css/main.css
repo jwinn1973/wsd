@@ -1,8 +1,5 @@
-
-
-
 body {
-	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 	background-image: url(../images/l4d2_bg.jpg);
@@ -11,6 +8,10 @@ body {
 	background-attachment: scroll;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	font-style: normal;
+	clear: none;
+	float: none;
+	width: 900px;
 }
 
 nav {
@@ -68,10 +69,11 @@ header {
 
 .par{
 	width: 900px;
-	list-style-type: none;
 	padding: 0px 0px 10px 5px;
 	font-size: 14px;
 	float: right;
+	line-height: normal;
+	padding: 10px 0 10px 0;
 }
 
 .hclear{
@@ -131,9 +133,8 @@ a:hover {
 	
 }
 
-.footer{
+#footer{
 	width: 900px;
 	margin: 0;
 	padding: 0px;
 }
-
