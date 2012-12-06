@@ -17,38 +17,30 @@ body {
 nav {
 	margin: 0 0 0 0;
 } 
-	
-h4,p {
-	color: #594302;
+
+#wrapper {
+
+	width: 100%;
+	margin: -10px 0 0 150px;
+	background-color: #8C6A03;
+	border-color: #262522;
+	border-right-style:solid;
+	border-left-style:solid;
+	overflow: hidden;
+}
+
+p {
+	color: white;
 	list-style-type: none;
 	padding: 10px 0 0 10px;
 	font-size: 14px;
 	
 }
 
-header {
-	width: 900px;
-	margin: 0;
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-
-}
-
-
-
-#content{
-
-	width: 900px;
-	margin: -10px 0 0 155px;
-	background-color: white;
-	
-}
-
-#introh2{
+h2  {
 	font-size: 18px;
 	text-decoration: none;
-	background: #8c6a03;
+	background: #262001;
 	display: block;
 	height: 30px;
 	text-align: center;  
@@ -59,50 +51,86 @@ header {
 	overflow: hidden;
 }
 
-.introp{
-	width: 900px;
-	list-style-type: none;
-	padding: 0px 0px 10px 5px;
-	overflow: hidden;
-	font-size: 14px;
+#main_content{
+	width: 100%;
+	background-color: #8C6A03;
+	margin: 0;
+	
 }
 
-.par{
-	width: 900px;
-	padding: 0px 0px 10px 5px;
-	font-size: 14px;
+
+.container {
+		width: 70%;
+		background-color: #4A4A3D;
+		overflow: hidden;
+	
+}
+
+aside {
 	float: right;
-	line-height: normal;
-	padding: 10px 0 10px 0;
-}
-
-.hclear{
-	clear: left;
-
-}
-
-#contenth3{
-	font-size: 14px;
-	text-decoration: none;
-	background: #8c6a03;
-	display: block;
-	height: 20px;
-	text-align: left;  
-	color: white;
-	padding: 0px 0px 0px 5px;
-	width: 895px;
+	width: 29%;
+	border-color: #262522;
+	border-right-style:solid;
+	border-left-style:solid;
 	overflow: hidden;
 }
 
-.contentimg {
-	float: left;
-	border: 0;
-	width: 150px;
-	height: 200px;
-}	
+
+
+.container img {
+		float: right;
+		width: 30%;
+		margin: 0;
+		padding: 0 30px 10px 0;
+		
+}
+
+.container p {
+	width: 100%;
+	font-size: 14px;
+	padding: 0 10px 0 20px;
+	display: block;
+	color: white;
+	
+
+		
+	
+}
+
+.container h4 {
+	background: #262001;
+	padding: 0 0 0 10px;
+	margin: 0;
+	color: white;
+}
+
+
+
+
+
+	
+#content p {
+	color: #594302;
+	list-style-type: none;
+	padding: 10px 0 0 10px;
+	font-size: 14px;*/
+	
+}
+
+
+
+header {
+	width: 100%;
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+
+}
+
 
 ul {
-	width: 900px;
+	width: 100%;
 	margin: 0;
 	background: #262001;
 	list-style-type: none;
@@ -138,3 +166,9 @@ a:hover {
 	margin: 0;
 	padding: 0px;
 }
+
+h3 {
+	padding: 0 0 10px 10px;
+	margin: 0;
+}
+
