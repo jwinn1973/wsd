@@ -111,6 +111,11 @@ aside {
 	background-color: black;
 }
 
+aside img{
+	width:100%	
+	
+}
+	
 #asideimg1{
 	width:100%;
 	height: 20%;
@@ -120,6 +125,7 @@ aside {
 	width:100%;
 	height: 80%;
 }
+
 
 
 
