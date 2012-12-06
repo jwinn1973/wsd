@@ -1,7 +1,7 @@
 body {
-	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+	max-width: 1000px;
+	min-width: 780px;
+	font: 100% 1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
 	background-image: url(../images/l4d2_bg.jpg);
 	background-color: black;
 	background-position: top center;
@@ -9,9 +9,8 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	font-style: normal;
-	clear: none;
-	float: none;
-	width: 900px;
+
+	
 }
 
 nav {
@@ -20,34 +19,47 @@ nav {
 
 #wrapper {
 
-	width: 100%;
-	margin: -10px 0 0 150px;
+	width: 90%;
+	margin: -1.0% 85% 0 15.0%;
+	overflow: hidden;
 	background-color: #8C6A03;
 	border-color: #262522;
 	border-right-style:solid;
 	border-left-style:solid;
+	
+}
+.header {
+	width: 100%;
 	overflow: hidden;
 }
 
-p {
-	color: white;
-	list-style-type: none;
-	padding: 10px 0 0 10px;
-	font-size: 14px;
+header img{
+	width: 100%;
+}
+
+#content {
+	width:100%;/*900px*/ 
 	
 }
 
+#content p {
+	color: white;
+	list-style-type: none;
+	padding: 001.111111111111%;
+	font-size: 0.875em;
+	
+}
+
+
 h2  {
-	font-size: 18px;
+	font-size: 1.25em; 
 	text-decoration: none;
 	background: #262001;
 	display: block;
-	height: 30px;
 	text-align: center;  
 	color: white;
-	padding: 0 0 0 5px;
-	width: 895px;
-	margin: -6px 0 0 0;
+	padding: 0.333333333333% 0 0 0;
+	margin: -0.666666666667% 0 0 0;
 	overflow: hidden;
 }
 
@@ -60,7 +72,7 @@ h2  {
 
 
 .container {
-		width: 70%;
+		width: 70%;/*630px*/ 
 		background-color: #4A4A3D;
 		overflow: hidden;
 	
@@ -68,12 +80,11 @@ h2  {
 
 aside {
 	float: right;
-	width: 29%;
+	width: 29%;/*261px*/ 
 	border-color: #262522;
 	border-right-style:solid;
 	border-left-style:solid;
 	overflow: hidden;
-	margin: 0;
 	background-color: black;
 }
 
@@ -81,9 +92,9 @@ aside {
 
 .container img {
 		float: right;
-		width: 30%;
+		width: 30%;/*189*/ 
 		margin: 0;
-		padding: 0 30px 10px 0;
+		padding: 0 4.761904761905% 0.5291005291005% 1.5873015873016%;
 		
 }
 
@@ -101,35 +112,10 @@ aside {
 
 .container h4 {
 	background: #262001;
-	padding: 0 0 0 10px;
+	padding: 3px 0 0 10px;
 	margin: 0;
 	color: white;
 }
-
-
-
-
-
-	
-#content p {
-	color: #594302;
-	list-style-type: none;
-	padding: 10px 0 0 10px;
-	font-size: 14px;*/
-	
-}
-
-
-
-header {
-	width: 100%;
-	margin: 0;
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-
-}
-
 
 ul {
 	width: 100%;
@@ -141,7 +127,7 @@ ul {
 }
 	
 li {
-	width: 180px;
+	width: 20%;
 	background: silver;
 	float: left;
 }
