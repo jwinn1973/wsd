@@ -88,15 +88,15 @@ h2  {
 
 .container p {
 	width: 100%;
-	font-size: 14px;
-	padding: 0 10px 0 20px;
+	font-size: 0.875em;
+	padding: 0 1.587301587302% 0 3.174603174603%;
 	display: block;
 	color: white;
 }
 
 .container h4 {
 	background: #262001;
-	padding: 3px 0 0 10px;
+	padding: 0.47619047619% 0 0 1.587301587302%;
 	margin: 0;
 	color: white;
 }
@@ -148,8 +148,7 @@ a {
 	text-decoration: none;
 	background: #262001;
 	display: block;
-	height: 30px;
-	line-height: 30px;
+	line-height: 2em;
 	text-align: center;  
 	color: #8c6a03;
 	
@@ -163,13 +162,10 @@ a:hover {
 
 #footer{
 	width: 100%;
-	margin: 0;
-	padding: 0px;
 	overflow: hidden;
 }
 
 h3 {
-	padding: 0 0 10px 10px;
-	margin: 0;
+	padding: 0 0 01.111111111111% 01.111111111111%;
 }
 
