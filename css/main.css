@@ -78,18 +78,6 @@ h2  {
 	
 }
 
-aside {
-	float: right;
-	width: 29%;/*261px*/ 
-	border-color: #262522;
-	border-right-style:solid;
-	border-left-style:solid;
-	overflow: hidden;
-	background-color: black;
-}
-
-
-
 .container img {
 		float: right;
 		width: 30%;/*189*/ 
@@ -104,10 +92,6 @@ aside {
 	padding: 0 10px 0 20px;
 	display: block;
 	color: white;
-	
-
-		
-	
 }
 
 .container h4 {
@@ -116,6 +100,26 @@ aside {
 	margin: 0;
 	color: white;
 }
+
+aside {
+	float: right;
+	width: 29%;/*261px*/ 
+	border-color: #262522;
+	border-right-style:solid;
+	border-left-style:solid;
+	overflow: hidden;
+	background-color: black;
+}
+
+#asideimg1{
+	width:100%;
+}
+
+#asideimg1{
+	width:100%;
+}
+
+
 
 ul {
 	width: 100%;
