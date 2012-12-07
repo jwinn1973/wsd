@@ -1,6 +1,5 @@
 body {
 	max-width: 1000px;
-	min-width: 780px;
 	font: 100% 1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
 	background-image: url(../images/l4d2_bg.jpg);
 	background-color: black;
@@ -126,9 +125,6 @@ aside img{
 	height: 80%;
 }
 
-
-
-
 ul {
 	width: 100%;
 	margin: 0;
@@ -151,7 +147,6 @@ a {
 	line-height: 30px;
 	text-align: center;  
 	color: #8c6a03;
-	
 }
 
 a:hover {
@@ -172,3 +167,36 @@ h3 {
 	margin: 0;
 }
 
+/* =Media Queries
+==============================================================*/
+
+		/* Tablet Portrait size to standard 960 (devices and browsers)*/
+	@media screen and (min-width: 779px) and (max-width: 999px){
+	#wrapper {margin: 0 auto;}
+	body {background-image: none;}
+	h2  {margin-top: -6px;}
+		
+}
+	
+	/* Tablet Landscape size to Tablet Portrait (devices and browsers)*/
+	@media only screen and (min-width: 480px) and (max-width: 780px){
+	#wrapper {margin: 0 auto; width: 100%;}
+		ul{margin-top: 0}
+		li {width: 100%;}
+		body {background-image: none;}
+		h2  {margin-top: -6px;}
+		}
+
+	/* Mobile Portrait to Mobile Landscape Size (devices and browsers)*/
+	@media only screen and (max-width: 479px){
+	#wrapper {margin: 0 auto; width: 100%;}
+		ul{margin-top: 0}
+		li {width: 100%;}
+		h2  {font-size: 12px; padding: display none; margin-top: -6px;}
+		aside {display: none;}
+		.container {width: 100%;}
+		body {background-image: none;}
+		.container img {float: right; width: 50%}
+		.container p {width: 90%;}
+		#content p {width: 90%; margin: 0 auto;}
+}
