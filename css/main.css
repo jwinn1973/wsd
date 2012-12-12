@@ -112,13 +112,17 @@ h2  {
 	padding: 0.333333333333% 0 0 0;
 	margin: -0.666666666667% 0 0 0;
 	overflow: hidden;
-	text-shadow: 2px 2px 2px black;
+	text-shadow: 1px 1px .2px red;
 }
 
 h3 {
 	color: white;
-	text-shadow: 3px 2px 5px black;
+	text-shadow: 1px 1px .2px red;
 
+}
+
+h4 {
+	text-shadow: 1px 1px .2px red;
 }
 
 #main_content{
@@ -334,7 +338,7 @@ aside img{
 
 h3 {
 	padding: 0 0 01.111111111111% 01.111111111111%;
-	margin: 0;
+	text-shadow: 1px 1px .2px red;
 }
 
 /* =Media Queries
