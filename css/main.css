@@ -331,19 +331,25 @@ aside img{
 
 /* end of aside */
 
+#bottomcontent{
+	width: 70%;
+}
+
 #floattable{
-	width: 30%;
+	width: 100%;
 	background-color: #f9f9f9;
 	margin-top: 0px;
-	 border:5px solid #f0f0f0;
+	overflow: hidden;
+	color: black;
+	text-align: left;
 }
 
 #floattable h4 {
 	color: black;
 	text-align: center;
-	padding-bottom: 5px;
 	text-decoration: none;
 	font-size: 14px;
+	line-height: 15px;
 }
 
 table{
@@ -365,7 +371,28 @@ th {
 
 #floattable img{
 	width: 100%;
-	margin: -20px 0 0 0;
+	margin: 0;
+}
+
+#fanfilm{
+	background-color: black;
+	width: 100%;
+	overflow: hidden;
+	color: white;
+}
+
+#fanfilm h3{
+	margin-top: 0px;
+	background-color: red;
+	line-height: 20px;
+	padding: 3px 0 0 5px;
+	text-shadow: 2px 2px 2px black;
+}
+
+#fanfilm iframe{
+	width: 100%
+	margin-top: 0px;
+	
 }
 
 
