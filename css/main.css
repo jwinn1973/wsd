@@ -188,7 +188,9 @@ h3 {
 		background-color: #4A4A3D;
 		border-color: #262522;
 		border-right-style:solid;
+		float: left;
 		overflow: hidden;
+		
 }
 
 .container img {
@@ -329,17 +331,12 @@ aside img{
 
 /*End Of Community Map Section*/
 
-/* end of aside */
-
-#bottomcontent{
-	width: 70%;
-}
+/* Table Css Begins */
 
 #floattable{
 	width: 100%;
 	background-color: #f9f9f9;
 	margin-top: 0px;
-	overflow: hidden;
 	color: black;
 	text-align: left;
 }
@@ -348,12 +345,14 @@ aside img{
 	color: black;
 	text-align: center;
 	text-decoration: none;
-	font-size: 14px;
-	line-height: 15px;
+	font-size: 18px;
+	background-color: red;
+	line-height: 46px;
+
 }
 
 table{
-	font-size: 12px;
+	font-size: 14px;
 	border-collapse: collapse;
 }
 .odd{
@@ -371,53 +370,157 @@ th {
 
 #floattable img{
 	width: 100%;
-	margin: 0;
+	margin-top: -24px;
 }
 
-#fanfilm{
-	background-color: black;
-	width: 100%;
-	overflow: hidden;
-	color: white;
-}
+/* Table Css Ends */
 
-#fanfilm h3{
-	margin-top: 0px;
-	background-color: red;
-	line-height: 20px;
-	padding: 3px 0 0 5px;
-	text-shadow: 2px 2px 2px black;
-}
+
+/* end of aside */
+
+
+/* Fan Film Css Begins */
 
 #fanfilm iframe{
 	width: 100%;
-	height: 394px;
+	height: 390px;
 	border: none;
+	overflow:hidden;
+}
+
+/* Fan Film Ends */
+
+/* Forms Css Begins */
+
+form    {
+width:70%;
+font-size: 14px;
+line-height: 24px;
+color: black;
+text-decoration: none;
+padding: 2px;
+
+}
+
+#contact {
+	background-color: white;
+	width: 70%;
+	overflow: hidden;
+	text-align: left;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); 
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background-image:url(../images/Tank.png);
+  	background-position: top right;
+  	background-size: 60%;
+	background-repeat: no-repeat; 
+}
+
+#contact h3{
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px .2px white;
+	margin-top: 0px;
 	
 }
 
+#contact img{
+	float: right;
+	clear: both;
+	width: 40%;
+}
 
-#footer{
-	width: 100%;
-	margin: 0;
-	padding: 0px;
-	overflow: hidden;
-	background-color: #8c6a03;
+input    {
+width:200px;
+display:block;
+border: 1px solid #999;
+height: 14px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input:focus {
+	background: yellow;
+	
+}
+
+#message{
+	width:200px;
+	display:block;
+	border: 1px solid #999;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#message:focus {
+	background: yellow;
+}
+
+#newsletter{
+	display:inline;
+	margin: -5px 0 0 -90px;
+	
+}
+
+p label{
+	margin: -5px 0 0 -90px;	
+}
+
+.button{
+	margin-left: 75px;
 }
 
 
+/* Forms Css Ends */
 
+/* Footer Css Begins */
+
+footer ul {
+	width: 100%;
+	margin: 0;
+	background: #262001;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+	
+footer li {
+	width: 20%;
+	background: silver;
+	float: left;
+}
+
+footer a {
+	text-decoration: none;
+	background: #262001;
+	display: block;
+	line-height: 30px;
+	text-align: center;  
+	color: #8c6a03;
+}
+
+footer a:hover {
+	color: #262001;
+	background: #8c6a03;
+	
+}
+
+/* Footer Css Ends */
 
 
 /* =Media Queries
 ==============================================================*/
 
 		/* Tablet Portrait size to standard 960 (devices and browsers)*/
-	@media screen and (min-width: 768px) and (max-width: 1024px){
+    @media screen and (min-width: 768px) and (max-width: 1024px){
 	#wrapper {margin: 0 auto;}
 	body {background-image: none;}
 	h2  {margin-top: -6px;}
-		
+	
 }
 	
 	/* Tablet Landscape size to Tablet Portrait (devices and browsers)*/
@@ -430,7 +533,7 @@ th {
 		}
 
 	/* Mobile Portrait to Mobile Landscape Size (devices and browsers)*/
-	@media only screen and (max-width: 479px){
+    @media only screen and (max-width: 479px){
 	#wrapper {margin: 0 auto; width: 100%;}
 		ul{margin-top: 0}
 		li {width: 100%;}
@@ -441,4 +544,4 @@ th {
 		.container img {float: right; width: 50%}
 		.container p {width: 90%;}
 		#content p {width: 90%; margin: 0 auto;}
-}
+} 
