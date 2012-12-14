@@ -186,15 +186,15 @@ aside {
 }
 
 .dividercontainer {
-	width; 100%;
+	width: 100%;
 }
 
 .dividercontainer img {
 	width: 100%;
 }
+
 aside img{
 	width:100%	
-	
 }
 	
 #asideimg1{
@@ -231,7 +231,7 @@ aside img{
     background:url(../images/aside/btn_getnow_over.gif);
     width: 75.095785440613%; /*196px*/
     height:29px;
-    background-position:0 -11.111111111111; /*-29px*/
+    background-position:0 -29px; /*-29px*/
 }
 
 /*Community Map Section */
@@ -279,7 +279,7 @@ aside img{
     background:url(../images/aside/link_fb_over.png);
     width: 45.977011494253%; /*120px/261px*/
     height:29px;
-    background-position:0 -11.111111111111; /*-29px*/
+    background-position:0 -29px; /*-29px*/
 }
 
 #image-twitter {
@@ -298,7 +298,7 @@ aside img{
     background:url(../images/aside/link_twitter_over.png);
     width:45.977011494253%; /*120px/261px*/
     height:29px;
-    background-position:0 -11.111111111111; /*-29px*/
+    background-position:0 -29px; /*-29px*/
 }
 
 /*End Of Community Map Section*/
@@ -485,12 +485,12 @@ input:focus {
 
 #newsletter{
 	display:inline;
-	margin: -5px 0 0 -90px;
+	margin: -0.793650793651% 0 0 -14.285714285714%;
 	
 }
 
 p label{
-	margin: -5px 0 0 -90px;	
+	margin: -0.793650793651% 0 0 -14.285714285714%;	
 }
 
 .button{
@@ -543,11 +543,9 @@ footer a:hover {
 	#wrapper {margin: 0 auto;}
 	body {background-image: none;}
 	#content article {
-	text-indent: none;
-	-moz-column-count: none;
-	-moz-column-gap: none;
-	padding: none;}
-	#content section {background-image: 100%;}
+	text-indent: 0;
+	padding: 0;}
+	/*#content section {background-image: 100%;}*/
 	#main_content{ width: 100%;}
 	.container {width:70%;}
 	#contact {width:70%;}
@@ -555,14 +553,15 @@ footer a:hover {
 	
 	/* Tablet size Portrait (devices and browsers)*/
 	@media screen and (max-width: 768px) {
-	#wrapper {margin: 0 auto;}
+		#wrapper {margin: 0 auto;}
+		#content article { width: 100%;}
 		ul{margin-top: 0}
 		/*nav li {width: 100%;}*/
 		body {background-image: none;}
 		h2  {margin-top: -6px;}
 		#contact {background-image: none;}
 		.container #fanfilm {height: 50%; }
-		#content section {background-image: 100%;}
+		/*#content section {background-image: 100%;}*/
 		#main_content{ width: 100%;}
 		.container {width:100%;}
 		#contact {width:100%;}
@@ -574,7 +573,10 @@ footer a:hover {
 		#survivors h3{ width: 100%;}
 		#floattable {display: none;}
 		form {margin: 0 auto;}
-		}
+		#newsletter {margin-left: -100px;}
+		p label {margin-left: -80px;}
+		}	
+		
 		
 	/* Tablet size Portrait (devices and browsers)*/
 	@media screen and (max-width: 600px) {
@@ -585,12 +587,14 @@ footer a:hover {
 		body {background-image: none;}
 		h2  {margin-top: -6px;}
 		#contact {background-image: none;}
-		#content section {background-image: 100%;}
+		#content section {background-image: none;}
 		#main_content{ width: 100%;}
 		.container {width:100%;}
 		#contact {width:100%;}
 		aside {display: none;}
 		form {margin: 0 auto;}
+		#newsletter {margin-left: -80px;}
+		p label {margin-left: -70px;}
 		
 		}
 
@@ -606,6 +610,7 @@ footer a:hover {
 		.container img {display: none;}
 		.container p {width: 90%;}
 		#content p {width: 90%; margin: 0 auto;}
-		form {margin-left: 0;}
-		newsletter {margin-left: 0:}
+		form {margin: 0 auto ;}
+		#newsletter {margin-left: -50px;}
+		p label {margin-left: -40px;}
 } 
