@@ -524,7 +524,7 @@ footer a:hover {
 }
 	
 	/* Tablet Landscape size to Tablet Portrait (devices and browsers)*/
-	@media only screen and (min-width: 480px) and (max-width: 768px){
+	@media screen and (min-width: 400px) and (max-width: 700px) {
 	#wrapper {margin: 0 auto; width: 100%;}
 		ul{margin-top: 0}
 		li {width: 100%;}
@@ -533,7 +533,7 @@ footer a:hover {
 		}
 
 	/* Mobile Portrait to Mobile Landscape Size (devices and browsers)*/
-    @media only screen and (max-width: 480px){
+    @media screen and (max-width: 480px){
 	#wrapper {margin: 0 auto; width: 100%;}
 		ul{margin-top: 0}
 		li {width: 100%;}
