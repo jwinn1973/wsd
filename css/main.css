@@ -1,6 +1,6 @@
 body {
-	width: 1000px;
-	font: 100% 1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	max-width: 1000px;
+	font: 100% "Helvetica Neue", Arial, Helvetica, sans-serif;
 	background-image: url(../images/l4d2_bg.jpg);
 	background-color: black;
 	background-position: top center;
@@ -14,7 +14,7 @@ body {
 
 #wrapper {
 
-	width: 90%;
+	width: 90%; /* 900px*/
 	margin: -1.0% 85% 0 15.0%;
 	overflow: hidden;
 	/*background-color: #8C6A03;*/
@@ -103,13 +103,13 @@ header img{
 
 
 h2  {
-	font-size: 1.25em; 
+	font-size: 1.063em; 
 	text-decoration: none;
 	background: #262001;
 	display: block;
 	text-align: center;  
 	color: white;
-	padding: 0.333333333333% 0 0 0;
+	padding: 1px 0 0 0;
 	margin: -0.666666666667% 0 0 0;
 	overflow: hidden;
 	text-shadow: 1px 1px .2px red;
@@ -118,7 +118,7 @@ h2  {
 h3 {
 	color: white;
 	text-shadow: 1px 1px .2px red;
-	padding: 0 0 01.111111111111% 01.111111111111%;
+	padding: 0 0 2px 01.111111111111%;
 }
 
 .container h4 {
@@ -135,53 +135,6 @@ h3 {
 	border-top-style:solid;
 	overflow: hidden;
 }
-
-
-
-/*The Survivors Section*/
-
-.gallery img{
-	width: 110px;
-	height: 150px;
-	
-}
-
-.gallery ul{
-	list-style-type: none;
-	margin: 20px auto;
-	overflow: hidden;
-	padding: 5px;
-}
-
-.gallery li {
-	float: left;
-	margin-left: 7px;
-	
-}
-
-#survivors{
-
-}
-
-#transbox{
-	padding: 5px;
-	/*background-color: #FF0000;*/
-    background-color: rgba(255, 0, 0, 0.2) ;
-    overflow: hidden;
-    margin-top: -18px;
-}
-
-
-
-#survivors h3{
-	background: #5f0200;
-	padding: 0.47619047619% 0 0 1.587301587302%;
-	margin-top: -6px;
-	line-height: 25px;
-}
-
-/*end of the survivors section*/
-
 
 .container {
 		width: 70%;/*630px*/ 
@@ -228,10 +181,17 @@ aside {
 	overflow: hidden;
 	background-color: black;
 	color: yellow;
-	font-size: 14px;
+	font-size: 0.875em; /*14px*/
 	text-align: center;
 }
 
+.dividercontainer {
+	width; 100%;
+}
+
+.dividercontainer img {
+	width: 100%;
+}
 aside img{
 	width:100%	
 	
@@ -242,24 +202,36 @@ aside img{
 	height: 20%;
 }
 
-#asideimg1{
+#asideimg2{
 	width:100%;
 	height: 80%;
 }
 
+#asideimg3{
+	width:100%;
+	
+}
+
+#asideimg4{
+	width:100%;
+	
+}
+
+
+
 #image-getnow {
     background:url(../images/aside/btn_getnow.gif);
     cursor: pointer;
-    width:196px;
+    width: 75.095785440613%; /*196px*/
     height:29px;
     margin: 0 auto; 
 }
 
 #image-getnow:hover {
     background:url(../images/aside/btn_getnow_over.gif);
-    width:196px;
+    width: 75.095785440613%; /*196px*/
     height:29px;
-    background-position:0 -29px;
+    background-position:0 -11.111111111111; /*-29px*/
 }
 
 /*Community Map Section */
@@ -294,49 +266,100 @@ aside img{
 #image-facebook {
     background:url(../images/aside/link_fb.png);
     cursor: pointer;
-    width:120px;
+    width: 45.977011494253%; /*120px/261px*/
     height:29px;
     margin: 0 auto;
     border-radius: .5em;
     float: left;
-    padding-left: 10px;
+    padding-left: 03.831417624521%; /*10px*/
     
 }
 
 #image-facebook:hover {
     background:url(../images/aside/link_fb_over.png);
-    width:120px;
+    width: 45.977011494253%; /*120px/261px*/
     height:29px;
-    background-position:0 -29px;
+    background-position:0 -11.111111111111; /*-29px*/
 }
 
 #image-twitter {
     background:url(../images/aside/link_twitter.png);
     cursor: pointer;
-    width:120px;
+    width:45.977011494253%; /*120px/261px*/
     height:29px;
     margin: 0 auto;
     border-radius: .5em;
     float: right;
-    padding-right: 10px;
+    padding-right: 03.831417624521%; /*10px*/
     
 }
 
 #image-twitter:hover {
     background:url(../images/aside/link_twitter_over.png);
-    width:120px;
+    width:45.977011494253%; /*120px/261px*/
     height:29px;
-    background-position:0 -29px;
+    background-position:0 -11.111111111111; /*-29px*/
 }
 
 /*End Of Community Map Section*/
+
+/*The Survivors Section*/
+
+#transbox{
+	padding: 01.915708812261%;/*5px*/
+	/*background-color: #FF0000;*/
+    background-color: rgba(255, 0, 0, 0.2) ;
+    overflow: hidden;
+    margin-top: -18px;
+    width: 100%; /*261px*/
+}
+
+#transbox a:hover {
+	color: #262001;
+	background: #8c6a03;
+	
+}
+
+.gallery img{
+	width: 100%;
+	height: 150px;
+	
+	
+}
+
+.gallery ul{
+	list-style-type: none;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.gallery li {
+	float: left;
+	clear: right;
+	margin-left: 2.681992337165%;/*7px*/
+	width: 42.145593869732%;
+	height: 150px;
+	padding-bottom: 3.8314176245%; /*10px;*/
+	
+}
+
+#survivors h3{
+	background: #5f0200;
+	padding: 0.47619047619% 0 0 1.587301587302%;
+	margin-top: -6px;
+	line-height: 25px;
+}
+
+/*end of the survivors section*/
+
 
 /* Table Css Begins */
 
 #floattable{
 	width: 100%;
 	background-color: #f9f9f9;
-	margin-top: 0px;
+	margin-top: -26px;
 	color: black;
 	text-align: left;
 }
@@ -345,14 +368,14 @@ aside img{
 	color: black;
 	text-align: center;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 1.125em; /*18px*/
 	background-color: red;
 	line-height: 46px;
 
 }
 
 table{
-	font-size: 14px;
+	font-size: 0.875em; /*14px*/
 	border-collapse: collapse;
 }
 .odd{
@@ -382,7 +405,7 @@ th {
 /* Fan Film Css Begins */
 
 #fanfilm iframe{
-	width: 100%;
+	width: 100%; 
 	height: 390px;
 	border: none;
 	overflow:hidden;
@@ -393,8 +416,8 @@ th {
 /* Forms Css Begins */
 
 form    {
-width:70%;
-font-size: 14px;
+width: 70%;/*630px*/ 
+font-size: 0.875em; /*14px*/
 line-height: 24px;
 color: black;
 text-decoration: none;
@@ -407,11 +430,11 @@ padding: 2px;
 	width: 70%;
 	overflow: hidden;
 	text-align: left;
-	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 0.500em rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 0.500em rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); 
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
+	-webkit-border-radius: 0.625em; /*10px*/
+	-moz-border-radius: 0.625em; /*10px*/
 	background-image:url(../images/Tank.png);
   	background-position: top right;
   	background-size: 60%;
@@ -433,7 +456,7 @@ padding: 2px;
 }
 
 input    {
-width:200px;
+width: 47.746031746032%;
 display:block;
 border: 1px solid #999;
 height: 14px;
@@ -448,7 +471,7 @@ input:focus {
 }
 
 #message{
-	width:200px;
+	width:47.746031746032%;
 	display:block;
 	border: 1px solid #999;
 	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
@@ -516,32 +539,73 @@ footer a:hover {
 ==============================================================*/
 
 		/* Tablet Portrait size to standard 960 (devices and browsers)*/
-    @media screen and (min-width: 768px) and (max-width: 1024px){
+    @media screen and (max-width: 1024px){
 	#wrapper {margin: 0 auto;}
 	body {background-image: none;}
-	
-	
+	#content article {
+	text-indent: none;
+	-moz-column-count: none;
+	-moz-column-gap: none;
+	padding: none;}
+	#content section {background-image: 100%;}
+	#main_content{ width: 100%;}
+	.container {width:70%;}
+	#contact {width:70%;}
 }
 	
-	/* Tablet Landscape size to Tablet Portrait (devices and browsers)*/
-	@media screen and (min-width: 400px) and (max-width: 700px) {
-	#wrapper {margin: 0 auto; width: 100%;}
+	/* Tablet size Portrait (devices and browsers)*/
+	@media screen and (max-width: 768px) {
+	#wrapper {margin: 0 auto;}
 		ul{margin-top: 0}
-		li {width: 100%;}
+		/*nav li {width: 100%;}*/
 		body {background-image: none;}
 		h2  {margin-top: -6px;}
+		#contact {background-image: none;}
+		.container #fanfilm {height: 50%; }
+		#content section {background-image: 100%;}
+		#main_content{ width: 100%;}
+		.container {width:100%;}
+		#contact {width:100%;}
+		aside{ float: none; width: 100%;overflow: hidden;}
+		#asideimg1 {float: left;  width: 50%}
+		#asideimg2 {float: left;  width: 50%;}
+		.map {margin: 0 auto; width: 40%;}
+		#survivors {margin: 0 auto; width: 50%;}
+		#survivors h3{ width: 100%;}
+		#floattable {display: none;}
+		form {margin: 0 auto;}
+		}
+		
+	/* Tablet size Portrait (devices and browsers)*/
+	@media screen and (max-width: 600px) {
+	#wrapper {margin: 0 auto;}
+		ul{margin-top: 0}
+		nav li {width: 100%;}
+		footer li {width: 100%}
+		body {background-image: none;}
+		h2  {margin-top: -6px;}
+		#contact {background-image: none;}
+		#content section {background-image: 100%;}
+		#main_content{ width: 100%;}
+		.container {width:100%;}
+		#contact {width:100%;}
+		aside {display: none;}
+		form {margin: 0 auto;}
+		
 		}
 
 	/* Mobile Portrait to Mobile Landscape Size (devices and browsers)*/
     @media screen and (max-width: 480px){
 	#wrapper {margin: 0 auto; width: 100%;}
 		ul{margin-top: 0}
-		li {width: 100%;}
-		h2  {font-size: 12px; padding: display none; margin-top: -6px;}
+		nav li {width: 100%;}
+		h2  {font-size: 8px; display: none; margin-top: -6px;}
 		aside {display: none;}
 		.container {width: 100%;}
 		body {background-image: none;}
-		.container img {float: right; width: 50%}
+		.container img {display: none;}
 		.container p {width: 90%;}
 		#content p {width: 90%; margin: 0 auto;}
+		form {margin-left: 0;}
+		newsletter {margin-left: 0:}
 } 
