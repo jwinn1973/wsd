@@ -519,12 +519,12 @@ footer a:hover {
     @media screen and (min-width: 768px) and (max-width: 1024px){
 	#wrapper {margin: 0 auto;}
 	body {background-image: none;}
-	h2  {margin-top: -6px;}
+	
 	
 }
 	
 	/* Tablet Landscape size to Tablet Portrait (devices and browsers)*/
-	@media only screen and (min-width: 480px) and (max-width: 780px){
+	@media only screen and (min-width: 480px) and (max-width: 768px){
 	#wrapper {margin: 0 auto; width: 100%;}
 		ul{margin-top: 0}
 		li {width: 100%;}
@@ -533,7 +533,7 @@ footer a:hover {
 		}
 
 	/* Mobile Portrait to Mobile Landscape Size (devices and browsers)*/
-    @media only screen and (max-width: 479px){
+    @media only screen and (max-width: 480px){
 	#wrapper {margin: 0 auto; width: 100%;}
 		ul{margin-top: 0}
 		li {width: 100%;}
