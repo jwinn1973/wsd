@@ -575,6 +575,7 @@ footer a:hover {
 		form {margin: 0 auto;}
 		#newsletter {margin-left: -100px;}
 		p label {margin-left: -80px;}
+		#content article {-moz-column-count:1; text-align: justify; padding-right: 10px; }
 		}	
 		
 		
@@ -595,6 +596,7 @@ footer a:hover {
 		form {margin: 0 auto;}
 		#newsletter {margin-left: -80px;}
 		p label {margin-left: -70px;}
+		#content article {-moz-column-count:1; text-align: justify; padding-right:10px;}
 		
 		}
 
@@ -613,4 +615,6 @@ footer a:hover {
 		form {margin: 0 auto ;}
 		#newsletter {margin-left: -50px;}
 		p label {margin-left: -40px;}
+		#content article {-moz-column-count:1; text-align: justify; }
+	
 } 
